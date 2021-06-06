@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "libmecab",
+        "repositoryURL": "https://github.com/trickart/libmecab.git",
+        "state": {
+          "branch": null,
+          "revision": "efeff76a9c7e8a169bcb64f71934278d948c42bd",
+          "version": "0.996.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
