@@ -27,7 +27,7 @@ dependencies: [
 ### Example
 ``` swift:example.swift
 import Foundation
-import MeCab
+import MeCabObjC
 // MeCabIPAdicをインストールした場合
 import MeCabIPAdic
 
