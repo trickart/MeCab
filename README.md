@@ -12,7 +12,7 @@ MeCabを使用するには辞書が必要です。このライブラリには辞
 (MeCabIPAdicの依存パッケージとしてインストールされます)  
 ``` swift:Package.swift
 dependencies: [
-    .package(url: "https://github.com/trickart/MeCabIPAdic.git", .upToNextMinor(from: "270.20070801.0"))
+    .package(url: "https://github.com/trickart/MeCabIPAdic.git", .upToNextMinor(from: "270.20070801.2"))
 ]
 ```
 
@@ -20,7 +20,7 @@ dependencies: [
 `Package.swift` のdependenciesにMeCabを追加してください。
 ``` swift:Package.swift
 dependencies: [
-    .package(url: "https://github.com/trickart/MeCab.git", .upToNextMinor(from: "0.0.1"))
+    .package(url: "https://github.com/trickart/MeCab.git", .upToNextMinor(from: "0.0.2"))
 ]
 ```
 

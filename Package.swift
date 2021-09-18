@@ -8,7 +8,7 @@ let package = Package(
     products: [
         .library(
             name: "MeCab",
-            targets: ["MeCab"]),
+            targets: ["MeCabObjC"]),
     ],
     dependencies: [
         .package(
@@ -18,12 +18,12 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "MeCab",
+            name: "MeCabObjC",
             dependencies: ["libmecab"]
         ),
         .testTarget(
             name: "MeCabTests",
-            dependencies: ["MeCab"]
+            dependencies: ["MeCabObjC"]
         )
     ]
 )

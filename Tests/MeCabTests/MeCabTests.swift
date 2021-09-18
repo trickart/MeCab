@@ -1,5 +1,5 @@
 import XCTest
-@testable import MeCab
+@testable import MeCabObjC
 
 final class MeCabTests: XCTestCase {
     func testLink() {
